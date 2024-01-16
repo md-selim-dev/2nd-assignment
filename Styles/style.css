@@ -63,7 +63,6 @@
   align-items: center;
   gap: 20px;
   cursor: pointer;
-  font-size: 40px;
 }
 
 .world {
@@ -109,7 +108,7 @@
   text-align: center;
   padding: 100px 200px 50px;
 }
-.banner-content .title {
+.banner-content .title {  
   font-size: 60px;
   font-weight: 800;
   color: var(--white);
@@ -148,7 +147,7 @@ input {
 .banner-btn {
   border-radius: 8px;
 }
-/* .banner-btn a {
+.banner-btn a {
   text-decoration: none;
   display: flex; 
   justify-content: center;
@@ -159,7 +158,7 @@ input {
 }
 .banner-btn a span {
   display: block;
-} */
+}
 /* Header Styles End */
 
 /* Main section start */
@@ -182,8 +181,7 @@ input {
   justify-content: center;
   margin-bottom: 100px;
 }
-.popular-tours .popular-content,
-.popular-img {
+.popular-tours .popular-content, .popular-img {
   width: 50%;
 }
 
@@ -195,7 +193,7 @@ input {
 }
 
 .your-destination-section .destination-content {
-  width: 60%;
+  width: 60%; 
   margin: 0 auto;
   margin-bottom: 40px;
 }
@@ -320,6 +318,7 @@ input {
 .perfect-place p {
   color: var(--dark-3);
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 .perfect-place li {
   padding-left: 0px;
@@ -328,7 +327,6 @@ input {
 }
 
 .packages-btn {
-  display: block;
   text-align: center;
   margin: 0 auto;
 }
@@ -339,18 +337,15 @@ input {
 }
 
 .perfect-place > div {
-  flex: 1;
+  flex: 1; 
+}
+
+.watch-bd-mountain img {
+  width: 100%;
 }
 /* perfect place styles end */
 
 /* Newsletter Styles start */
-.img-discount {
-  width: 642px;
-  height: 350px;
-  background-image: url(../Images/Rectangle\ 15.png);
-  background-position: center;
-  background-size: 100% 100%;
-}
 
 .newsletter-section {
   margin-bottom: 80px;
@@ -386,6 +381,13 @@ input[type="email"] {
   color: rgba(19, 19, 24, 0.3);
   font-size: 16px;
   background-color: whitesmoke;
+}
+.img-discount {
+  width: 642px;
+  height: 350px;
+  background-image: url(../Images/Rectangle\ 15.png);
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 .img-discount {
@@ -444,9 +446,15 @@ input[type="email"] {
 }
 .social-icon {
   margin-bottom: 40px;
- 
-
 }
+.social-icon a {  
+  display: block;
+ color: var(--dark-1);
+}
+.fa-brands{  
+  font-size: 30px;
+}
+
 .social-icon ul {
   display: flex;
   justify-content: center;
@@ -465,44 +473,3 @@ input[type="email"] {
 /* Footer styles start */
 
 /* Footer styles end */
-
-
-/* ^^^^^~~~~~~~~~~~~``````````` 
- ^^^^^~~~~~~~~~~~~``````````` 
- ^^^^^~~~~~~~~~~~~``````````` */
-/* Mobile Responsive Section Start */
-@media screen and (max-width: 600px) {
-  /* header responsive start */
-  /* nav responsive start */
-  .header {
-    padding: 20px;
-  }
-  .logo {
-    gap: 10px;
-  }
-  .logo img {
-    width: 30px;
-  }
-  .logo .logo-title {
-    font-size: 26px;
-  }
-  .navbar {
-    display: none;
-  }
-  .bar {
-    display: block;
-  }
-  /* nav responsive end */
-  
-  /* header responsive end */
-
-
-  /* Footer section responsive start */
-.footer {
-  padding: 40px 10px;
-}
-
-  /* Footer section responsive end */
-}
-
-/* Mobile Responsive Section End */
