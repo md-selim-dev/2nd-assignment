@@ -135,7 +135,15 @@
   flex-direction: column;
 }
   
-
+.img-section-box {
+  padding: 20px;
+}
+.box {
+  width: 500px;
+}
+.chil-box {
+  width: 300px;
+}
 .deals-content {
   width: 100%;
 }

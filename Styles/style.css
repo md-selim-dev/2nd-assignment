@@ -44,7 +44,50 @@
   background-repeat: no-repeat;
   background-position: right center;
 }
+.box {
+  position: relative;
+}
 
+.child-box {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 500px;
+  height: 350px;
+  padding: 60px 40px;
+}
+
+.for-box-1 {
+  position: absolute;
+  right: 60px;
+  top: 80px;
+}
+.for-box-2 {
+  position: absolute;
+  left: 60px;
+  top: 80px;
+}
+
+.box-title {
+  font-size: 24px;
+  font-weight: 800px;
+  color: var(--dark-1);
+  margin-bottom: 10px;
+}
+
+.box-para {
+  color: var(--dark-4);
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
 /* Shared Styles End */
 /* ~~~~~~~^^^^^^^^^^^^~~~~~~~~~~~~~******
 !!!!!!!!!!~~~~~~~~~~~!!!!!!!!!!~~~~~~~! */
@@ -114,7 +157,7 @@
   text-align: center;
   padding: 100px 200px 50px;
 }
-.banner-content .title {  
+.banner-content .title {
   font-size: 60px;
   font-weight: 800;
   color: var(--white);
@@ -192,7 +235,7 @@ input {
 }
 
 .your-destination-section .destination-content {
-  width: 60%; 
+  width: 60%;
   margin: 0 auto;
   margin-bottom: 40px;
 }
@@ -214,10 +257,11 @@ input {
   margin-bottom: 20px;
 }
 .row1 > div {
-  width: calc((100% - 24px)/2);
+  width: calc((100% - 24px) / 2);
   height: 320px;
 }
-.row2, .row3 > div {
+.row2,
+.row3 > div {
   height: 320px;
 }
 
@@ -255,9 +299,6 @@ input {
   background-image: url(../Images/Rectangle\ 10.png);
   width: 55%;
 }
-
-
-
 
 /* Your Destination Section end */
 
@@ -319,6 +360,34 @@ input {
   margin-top: 10px;
 }
 
+.packages-btn-container {
+  margin: 0 auto;
+  text-align: center;
+}
+.img-section-box {
+  margin: 20px;
+}
+.box {
+  margin-bottom: 20px;
+}
+.img-section-box .box1 {
+  background-image: url(../Images/Left-lake.png);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: right center;
+  justify-content: center;
+}
+.img-section-box .box2 {
+  background-image: url(../Images/Right-lake.png);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: right center;
+  justify-content: center;
+}
 /* Deals & Discount styles end */
 /* perfect place styles start */
 .perfect-place {
@@ -346,7 +415,7 @@ input {
 }
 
 .perfect-place > div {
-  flex: 1; 
+  flex: 1;
 }
 
 .watch-bd-mountain img {
@@ -425,7 +494,6 @@ input[type="email"] {
 .footer {
   background-color: whitesmoke;
   padding: 100px 200px;
-
 }
 .footer-content {
   text-align: center;
@@ -436,7 +504,7 @@ input[type="email"] {
   display: flex;
   gap: 20px;
   justify-content: center;
-  align-items: center ;
+  align-items: center;
   margin-bottom: 20px;
 }
 .center-logo img {
@@ -450,17 +518,17 @@ input[type="email"] {
 }
 .paragraph p {
   color: var(--dark-3);
-  line-height: 26px ;
+  line-height: 26px;
   margin-bottom: 30px;
 }
 .social-icon {
   margin-bottom: 40px;
 }
-.social-icon a {  
+.social-icon a {
   display: block;
- color: var(--dark-1);
+  color: var(--dark-1);
 }
-.fa-brands{  
+.fa-brands {
   font-size: 30px;
 }
 
@@ -469,14 +537,14 @@ input[type="email"] {
   justify-content: center;
   gap: 30px;
 }
-.social-icon ul{
+.social-icon ul {
   list-style-type: none;
 }
 
 .right-section {
   margin: 50px auto 0;
 }
-.right-section p{
+.right-section p {
   text-align: center;
 }
 /* Footer styles start */
