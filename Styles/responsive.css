@@ -2,7 +2,7 @@
 @media screen and (max-width: 600px) {
   /* header responsive start */
   /* nav responsive start */
- 
+
   .header {
     padding: 20px;
   }
@@ -24,7 +24,6 @@
 
   /* nav responsive end */
   /* header responsive end */
- 
 
   /* Responsive main start */
   .main {
@@ -33,12 +32,12 @@
   }
 
   .banner {
-    margin: 0 ;
+    margin: 0;
     padding: 0;
     flex-direction: column;
     height: auto;
     height: 600px;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
   }
   .banner .banner-content {
@@ -50,26 +49,28 @@
   }
   .find-now-section {
     width: auto;
-    padding: 20px;
-    flex-direction: column ;
+    padding: 30px;
+    flex-direction: column;
     align-items: center;
-    gap: 33px ;
+    gap: 20px;
   }
 
   .find-now-section div {
     width: 100%;
   }
-.where input {
-  display: block;
-  width: 100%;
-}
-.where input {
-  display: block;
-  width: 100%;
-}
- .find-now-section input, select, button {
-  width: 100%;
- }
+  .where input {
+    display: block;
+    width: 100%;
+  }
+  .where input {
+    display: block;
+    width: 100%;
+  }
+  .find-now-section input,
+  select,
+  button {
+    width: 100%;
+  }
   .popular-tours {
     padding: 20px;
     flex-direction: column;
@@ -78,17 +79,16 @@
   .popular-img {
     width: 100%;
   }
-  .popular-img img{
+  .popular-img img {
     width: 100%;
   }
   .popular-content .title {
     font-size: 1.5rem;
   }
-  .popular-content  {
+  .popular-content {
     padding: 0;
     width: 100%;
     height: auto;
-    
   }
 
   .your-destination-section {
@@ -97,7 +97,6 @@
   .your-destination-section .destination-content {
     width: 100%;
     padding: 20px;
-    
   }
   .destination-content .title {
     font-size: 1.5rem;
@@ -112,7 +111,8 @@
     width: 100%;
     height: 320px;
   }
-  .row2, .img {
+  .row2,
+  .img {
     width: 100%;
     height: 100%;
   }
@@ -131,73 +131,98 @@
     text-align: left;
   }
 
-.choose-us .hotel-map {
-  flex-direction: column;
-}
-  
-.img-section-box {
-  padding: 20px;
-}
-.box {
-  width: 500px;
-}
-.chil-box {
-  width: 300px;
-}
-.deals-content {
-  width: 100%;
-}
+  .choose-us .hotel-map {
+    flex-direction: column;
+  }
 
-.deals-content  .title {
-  font-size: 26px;
-  margin-bottom: 20px;
-}
+  .img-section-box {
+    padding: 20px;
+  }
+  .box {
+    width: 500px;
+  }
 
-.packages-btn {
-  display: none;
-}
+  .deals-discount {
+    margin: 0;
+    padding: 0;
+  }
 
+  .deals-content {
+    width: 100%;
+  }
 
+  .deals-content .title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .box {
+    position: static;
+    width: 100%;
+    padding: 20px;
+    background-size: cover !important;
+    background-position: center !important;
+  }
 
-.perfect-place {
-  flex-direction: column;
-  padding: 20px;
-  margin: 0 auto;
-}
+  .child-box {
+    position: static;
+    width: 300px;
+    padding: 20px;
+    height: 350px;
+    margin: auto auto 0;
+  }
+  .price {
+    font-size: 17px;
+  }
+  .book-now-btn {
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+  }
 
-.perfect-place-contain .title {
-  width: 250px;
-  font-size: 22px;
-}
+  .packages-btn {
+    display: none;
+  }
 
-.perfect-btn {
-  width: 180px;
-}
+  .perfect-place {
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+  }
 
-.newsletter-section {
-  flex-direction: column;
-  padding: 10px;
-  width: 100%;
-  margin: 10px auto 20px;
-}
+  .perfect-place-contain .title {
+    width: 250px;
+    font-size: 22px;
+  }
 
-.news-letter-content {
-  width: fit-content;
-}
+  .perfect-btn {
+    width: 180px;
+  }
 
-.news-letter-content form input {
-  width: 100%;
-}
+  .newsletter-section {
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    margin: 10px auto 20px;
+  }
 
-.img-discount {
-  width: auto;
-  background-position: center;
-  background-size: 100% 100%;
-}
+  .news-letter-content {
+    width: fit-content;
+  }
 
-.save70-discount {
-  width: 250px;
-}
+  .news-letter-content form input {
+    width: 100%;
+  }
+
+  .img-discount {
+    width: auto;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+
+  .save70-discount {
+    width: 250px;
+  }
 
   /* Responsive main end */
 
@@ -208,8 +233,6 @@
   }
   .footer-content {
   }
-
-
 
   /* Footer section responsive end */
 }

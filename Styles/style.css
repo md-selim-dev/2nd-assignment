@@ -52,7 +52,7 @@
   border-radius: 16px;
   border: 2px solid #fff;
   background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(2.0px);
   width: 500px;
   height: 350px;
   padding: 60px 40px;
@@ -72,7 +72,7 @@
 .box-title {
   font-size: 24px;
   font-weight: 800px;
-  color: var(--dark-1);
+  color: black;
   margin-bottom: 10px;
 }
 
